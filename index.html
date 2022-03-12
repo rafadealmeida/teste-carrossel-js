@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Carrossel</title>
+
+    <link rel="stylesheet" href="carrossel.css">
+</head>
+<body>
+    <section class="secaoJogos container">
+        <h2 class="secaoJogos-titulo titulopadrao">Melhores Jogos</h2>
+            <ul class="listaJogos">
+                <li id="new0" class="listaJogos-item">
+                    <article class="listaJogos-artigo">
+                        <img src="imagens/minecraft.avif" class="listaJogos-imagem" alt="">
+                        <h3 class="listaJogos-artigo-titulo">Minecraft: Mesmo depois de anos do lançamento de
+                            se mantém no topo de games mais jogados
+                        </h3>
+                        <p> Minecraft apesar de um jogo aparentemente simples,tem complexidade, várias mecânicas complexas. Juntamente a isso, minecraft é uma tela em branco onde você pode trazer sua identidade, um game que deixa sua criatividade ser o limite da diversão.
+                            <a href="#">Continue ledo</a></p>
+                    </article>
+                </li>
+                    <li id="new1" class="listaJogos-item">
+                    <article class="listaJogos-artigo">        
+                        <img src="imagens/fortnite.jpg" class="listaJogos-imagem" alt="">
+                        <h3 class="listaJogos-artigo-titulo">Fortnite: Game que desbancou o tão famoso Pubg, continua entre os com mais jogados, com atualizações constantes</h3>
+                        <p> Fortnite é o battle royale mais jogado , seu estilo de gameplay com construções e diferentes armas, trazem uma velocidade alucinante ao game , com batalhas entre os plays empolgante,juntamente com atualizações que mudam, armas, mapa, veículos e o meta do game, ele se mantém renovado.
+                            <a href="#">Continue ledo</a></p>
+                    </article>
+                </li>
+                <li id="new2" class="listaJogos-item">
+                    <article class="listaJogos-artigo">
+                        <img src="imagens/League-of-Legends.jpg" class="listaJogos-imagem" alt="">
+                        <h3 class="listaJogos-artigo-titulo">Lol: O mmorpg mais jogado na atualidade, mesmo depois de anos
+                            de seu lançamento
+                        </h3>
+                        <p> League of Legends é um jogo eletrônico multiplayer online battle arena , onde cada equipe escolhe seus campeões, seus personagens,e travam uma luta para domínio territorial, representado por torres. Um dos games mais jogados a anos e com uma presença no mundo do e-sports jamais visto.
+                            <a href="#">Continue ledo</a></p>
+                    </article>
+                </li>
+            </ul>
+
+
+            <nav>
+                <ul class="listaJogos-slider">
+                    <li><a href="new0" data-slider ="0" class="listaJogos-slider-item listaJogos-slider-item--ativo"></a></li>
+                    <li><a href="new1" data-slider ="1" class="listaJogos-slider-item"></a></li>
+                    <li><a href="new2" data-slider ="2" class="listaJogos-slider-item" ></a></li>
+                </ul>
+            </nav>
+    </section>
+
+
+<script src="carrossel.js"></script>
+</body>
+</html>
