@@ -26,13 +26,25 @@
     text-align: center;
 }
 
+.listaJogos-artigo{
+    text-align: left;
+    padding-bottom: 2em;
+    max-width: 815px;
+    display: inline-block;
+    white-space: normal;
+}
+
 .listaJogos{
     overflow: hidden;
     white-space: nowrap;
 }
 
-.listaJogos-artigo{
-    text-align: left;
+.listaJogos-item:not(:target):first-child{
+    display:inline-block;
+}
+
+.listaJogos-item:target{
+    display: inline-block;
 }
 
 .listaJogos-imagem{
@@ -56,9 +68,29 @@
     
 }
 
+.listaJogos-artigo-link{
+    background-color: rgba(25, 119, 226, 0.774);
+    box-sizing: border-box;
+    border-radius:10px;
+   
+    color: #fefefe;
+    display: flex;
+    font-weight: bold;
+   
+    justify-content: center;
+    padding: 0.5rem;
+    width: 70%;
+    margin: 2% 15%
+
+}
+
 .listaJogos-slider{
     width: 70%;
     margin: 0 auto;
+}
+
+.listaJogos-slider li{
+    display: inline-block;
 }
 
 .listaJogos-slider-item{
@@ -66,12 +98,24 @@
     display: inline-block;
     overflow: hidden;
     background-color: #d4d4d4;
-    border-radius: 40px;
+    border-radius: 50%;
     height: 40px;
+    width:40px;
     margin: 0 .5em;
     border: 0;
 }
 
+.listaJogos-slider-item:hover,
+.listaJogos-slider-item:focus {
+  background-color: #a5a5a5;
+  outline: 0;
+}
+
+
 .listaJogos-slider>li{
     list-style-type: none
 }
+
+.listaDeArtigos-slider-item--ativo {
+    background: hsla(200, 70%, 0%, .6);
+  }
